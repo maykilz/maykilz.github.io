@@ -1,0 +1,23 @@
+*  {
+ box-sizing: border-box;
+}
+div,ul,li,p,a,span,img,article,
+aside,
+footer,
+header,
+nav,
+section,
+h1,h2,h3,h4,h5,h6,
+article,
+aside,
+figcaption,
+figure,
+main,
+button{
+ margin: 0;
+ padding: 0;	
+ word-wrap: break-word;
+ outline: none;
+ list-style: none;
+ text-decoration: none; 
+}
