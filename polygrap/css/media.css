@@ -320,7 +320,7 @@
     text-align: center; }
   header {
     padding-bottom: 65px; 
-    background: url('../img/mobileheaderbg.png') repeat;
+    background: url('../img/mobileheaderbg.png') repeat center;
   }
   .headersitems__list {
     padding: 0 35px; }
