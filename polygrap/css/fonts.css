@@ -18,7 +18,7 @@
 
 @font-face {
   font-family: 'Muller Heavy';
-  src: url("../MullerHeavy.woff2") format("woff2"), url("../MullerHeavy.woff") format("woff");
+  src: url("../fonts/MullerHeavy.woff2") format("woff2"), url("../fonts/MullerHeavy.woff") format("woff");
   font-weight: 900;
   font-style: normal; }
 
