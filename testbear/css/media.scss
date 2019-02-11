@@ -1,0 +1,262 @@
+
+$graytextcolor: #333333;
+$pinkhover: #ed9aae;
+$pinkactive: #d88b9d;
+
+
+@media (min-width: 992px) {
+ .nav-link {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.88;
+ }
+ .phonemenu__nubmer {
+  font-size: 16px;
+  font-weight: 500;
+ }
+ .phonemenu__button {
+  font-size: 14px;
+  font-weight: 500;
+ }
+ .header__content {
+  margin-top: 118px;
+ }
+ h1 {
+  font-size: 5.625em;
+ }
+ .header__text__tittle {
+  font-size: 24px;
+  line-height: 36px;
+ }
+ .header__selectbear {
+  padding: 32px 0px;
+  border-radius: 39px;
+  font-size: 15.6px;
+  line-height: 2.77px;
+  text-align: center;
+  font-size: 15.5px;
+  color: #fff;
+  margin-top: 74px;
+ }
+
+.header__mouse {
+ margin-top: 57px;
+}
+
+.header__mouse__link {
+ font-size: 14px;
+}
+
+.bearcontainer {
+  padding-bottom: 172px;
+}
+
+.section__head {
+ font-size: 55px;
+ padding-top: 148px;
+ padding-bottom: 82px;
+}
+
+.bear-bigimage {
+  display: block;;
+  position: absolute;;
+  margin: auto;;
+  top: 0; left: 0; bottom: 0; right: 0;
+}
+.beardescription__imgblock {
+ .row {
+   &:nth-child(2) {
+     margin-top: 176px;
+   }
+   &:nth-child(3) {
+     margin-top: 166px;
+   }
+ }
+}
+
+.beardescription__tittle {
+  display: inline-block;;
+  text-align: center;
+  font-size: 18px;
+
+  color: #333;
+}
+.bearselect__tabs {
+ .nav-item {
+   a {
+     border-radius: 26px;
+     font-size: 20px;
+   }
+ }
+}
+
+.bearselect__content {
+  .tab-content {
+
+      margin-top: 59px;
+  }
+}
+
+  .bearselect__card {
+    figcaption {
+      font-size: 24px;
+    }
+  }
+  .bearselect__oldprice {
+    font-size: 16px;
+    line-height: 26px;
+  }
+
+  .bearselect__realprice {
+    font-size: 30px;
+    line-height: 26px;
+  }
+
+  .bearselect__button {
+    margin-top: 10px;
+    padding: 26px 0px;
+    border-radius: 25px;
+    font-size: 12.5px;
+  }
+  .advantages {
+  background-image:  linear-gradient(to bottom, #fe9090 0%,#febbbb 69%,#febbbb 69%,#febbbb 96%);
+  }
+  .advantages__list {
+    .col-md-4 {
+      &:nth-child(2) {
+        border-left: 3px solid #fff;
+        border-right: 3px solid #fff;
+      }
+    }
+  }
+  .advantages__head {
+    font-size: 24px;
+    line-height: 30px;
+    padding-top: 31px;
+  }
+  .advantages__text {
+    font-size: 18px;
+    line-height: 30px;
+    padding-top: 31px;
+  }
+
+  .reviews__slider {
+    padding-bottom: 64px;
+   .slick-prev:before {
+     content: "\003C";
+     font-weight: bold;
+     font-size: 40px;
+     color: $pinkactive;
+   }
+   .slick-next:before {
+     content: "\003E";
+     font-weight: bold;
+     font-size: 40px;
+     color: $pinkactive;
+   }
+    div  {
+      outline: none;
+    }
+    img {
+      max-width: 261px;
+    }
+    .slick-slide {
+      &:nth-child(3) {
+        padding-right: 0px;
+      }
+    }
+    .slick-dots {
+      margin-top: 68px;
+    }
+  }
+
+ .order__content {
+   padding-top: 80px;
+ }
+
+ .order__list {
+   &:nth-child(odd) {
+     .order__content {
+       padding-left: 15px;
+     }
+   }
+ }
+
+  .order__list__head {
+    font-size: 16px;
+    line-height: 36px;
+  }
+  .order__list__text {
+    font-size: 16px;
+  }
+  .order__circle {
+    img {
+      position: absolute;
+    }
+  }
+  .order__circle__one {
+    img {
+      bottom: 60px;
+      left: 20px;
+    }
+  }
+  .two__circle {
+    img {
+      bottom: 40px;
+      left: 0px;
+    }
+  }
+ .order__circle__three {
+   img {
+     bottom: 70px;
+   }
+ }
+ .four__circle {
+   img {
+     bottom: 50px;
+   }
+ }
+ .form__row {
+   margin-top: 111px;
+ }
+ .formgroup__head {
+   font-size: 55px;
+   line-height: 60px
+ }
+ .formgroup__text {
+   font-size: 18px;
+   line-height: 24px;
+ }
+ .reviews__formgroup {
+   input {
+     margin-top: 90px;
+     &[type="text"] {
+       padding-top: 9px;
+       padding-bottom: 9px;
+       font-size: 30px;
+     }
+     &[type="submit"] {
+      font-size: 14px;
+      text-transform: uppercase;
+      color: #fff;
+      padding-top: 33px;
+      padding-bottom: 33px;
+      border-radius: 25px;
+    }
+   }
+ }
+
+}
+
+@media (max-width: 570px) {
+ .reviews__slider {
+   img {
+     max-width: 100% !important;
+     width: 100%;
+     &:hover {
+       transform: none;
+     }
+   }
+ }
+
+}

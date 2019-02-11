@@ -1,0 +1,348 @@
+@import url('../css/fonts.css');
+$graytextcolor: #333333;
+$pinkhover: #ed9aae;
+$pinkactive: #d88b9d;
+
+a {
+ text-decoration: none;
+ color: $graytextcolor;
+}
+
+
+body, a {
+ font-family: 'Museo Sans Cyrl ', sans-serif;
+ color: $graytextcolor;
+}
+
+
+
+.button {
+ font-family: 'Museo Sans Cyrl 900', sans-serif;
+ display: block;
+ background: linear-gradient(-90deg, #e9748c 49%, #e9a0b3 94%);
+ box-shadow: 0px 3px 27px 0px rgba(242, 42, 103, 0.45), 0px 20px 51px 0px rgba(244, 27, 93, 0.13);
+ &:hover, &:active {
+  text-decoration: none;
+  color: #fff;
+ }
+ &:hover {
+   transition: .2s all linear;
+   background: linear-gradient(-90deg,#e9a0b3 49%, #e9748c 94%);
+ }
+ &:active {
+  background: #e3718a;
+ }
+}
+
+@mixin hoverandactivelink() {
+ &:hover, &:active {
+  text-decoration: none;
+  transition: 0.2s all ease-in-out;
+ }
+ &:hover {
+  color: $pinkhover !important;
+ }
+ &:active {
+  color: $pinkactive !important;
+ }
+}
+
+
+.navbar-brand {
+ @include hoverandactivelink();
+}
+
+
+.header__text {
+ text-align: center;
+}
+
+
+
+.nav-link {
+  color: $graytextcolor !important;
+  @include hoverandactivelink();
+ }
+
+
+.header__phonemenu {
+ text-align:  center;
+ a {
+  @include hoverandactivelink();
+ }
+}
+
+.phonemenu__nubmer {
+  text-decoration:  none;
+}
+
+.phonemenu__button {
+ text-decoration: underline;
+}
+
+h1 {
+ font-family: 'Museo Sans Cyrl 700';
+ background:linear-gradient(to left, #e9748c 50%, #e9a0b3 94%), linear-gradient(to bottom, #333333, #333333);
+ -webkit-background-clip: text;
+ -webkit-text-fill-color: transparent;
+ color: #e9a0b3;
+}
+
+.header__text__tittle {
+ font-family: 'Museo Sans Cyrillic 300';
+ text-align: center;
+}
+
+.header__bear {
+  width: 100%;
+  object-fit: cover;
+}
+
+.header__selectbear {
+  font-family: 'Museo Sans Cyrl 900';
+}
+.header__mouse__link {
+  font-family: 'Minion Pro', sans-serif;
+  color: #f1aebf;
+  @include hoverandactivelink();
+}
+
+.beardescription {
+  background: #f4d3dc;
+}
+
+.section__head {
+ font-family: 'Museo Sans Cyrl 500', sans-serif;
+ text-align: center;
+ color: #e9748c;
+ span {
+   color: $graytextcolor;
+ }
+}
+
+
+
+.beardescription__bigbear {
+  width: 100%;
+  display: block;
+  margin: 0 auto;
+}
+
+.bear-bigimage {
+
+  max-width: 327px;
+}
+
+
+ .beardescription__tittle,.advantages__text {
+  font-family: 'Museo Sans Cyrl 500', sans-serif;
+ }
+
+
+.bearselect__tabs {
+  max-width:  570px;
+  margin: 0 auto;
+  .nav-item {
+    padding: 0px;
+    a {
+      display: block;
+      width: 100%;
+      padding: 0px;
+      border: 2px solid #bbbaba;
+      font-family: 'Museo Sans Cyrl 700';
+      color: $graytextcolor;
+      &:hover {
+       transition: .2 all linear;
+       color: $graytextcolor !important;
+       border-color: $pinkhover;
+      }
+      &:active{
+        transition: .2 all linear;
+        color: $graytextcolor !important;
+        border-color: #bbbaba ;
+      }
+     }
+     .active {
+       border-color: $pinkactive;
+       color: $graytextcolor !important;
+     }
+   }
+  }
+.bearselect__card > figcaption, .bearselect__oldprice {
+   font-family: 'Museo Sans Cyrillic 300';
+}
+  .bearselect__card {
+    figcaption {
+     line-height: 3.33;
+    }
+  }
+
+.bearselect__realprice, .advantages__head {
+  font-family: 'Museo Sans Cyrl 700';
+}
+
+.bearselect__button {
+  color: #fff;
+}
+
+
+
+
+   .reviews__slider  {
+
+     img {
+       max-width: 200px;
+       margin: 0 auto;
+       object-fit: cover;
+       &:hover {
+         transition: .2 all linear;
+         transform: scale(1.1);
+       }
+     }
+
+.slick-dots li button:before {
+  font-size: 50px;
+  color: $pinkactive;
+}
+
+.slick-dots .slick-active button:before {
+  color: #e9748c;
+}
+}
+
+.order__list__head {
+ font-family: 'Museo Sans Cyrl 900', sans-serif;
+ text-transform: uppercase;
+}
+
+.order__list__text {
+ font-family: 'Museo Sans Cyrl 500', sans-serif;
+}
+
+
+ .order__circle {
+   box-shadow: 0 0 81.6px 24.4px #f6cdda;
+   background-color: #fff5f8;
+   position: relative;
+   z-index: -1;
+   padding-bottom: 100%;
+   height: 0px;
+   max-height: 285px;
+   &:before {
+     font-family: 'Museo Sans Cyrl 500', sans-serif;
+      display: block;
+      width: 67px;
+      height: 67px;
+      background: #f1aebf;
+      border-radius: 50%;
+      text-align: center;;
+      border: 2px solid #fff;
+      color: #fff;
+      font-size: 36px;
+      padding-top: 5px;
+   }
+   img {
+     position: absolute;
+   }
+ }
+
+.order__circle__one {
+  &:before {
+    content: "1";
+  }
+}
+
+.two__circle {
+  &:before {
+    content: "2";
+  }
+}
+
+.order__circle__three {
+  &:before {
+    content: "3";
+  }
+}
+
+.four__circle {
+  &:before {
+    content: "4";
+  }
+}
+
+.formgroup__head{
+  font-family: 'Museo Sans Cyrl 700';
+  color: #e9748c;
+}
+.formgroup__text {
+ font-family: 'Museo Sans Cyrillic 300';
+}
+
+.reviews__formgroup {
+  input {
+    outline: none;
+    border: none;
+    &[type="text"] {
+     font-family: 'Museo Sans Cyrillic 300';
+     border:none;
+     border-bottom: 2px solid #f1acbe;
+     color: #f6c7d3;
+     opacity: 0.64;
+     position: relative;
+     padding-left: 50px;
+     padding-right: 50px;
+     &:nth-child(1) {
+       background: url('../img/profile.svg') no-repeat left;
+       &:hover, &:active {
+         transition: .2s all linear;
+         background: url('../img/profileactive.svg') no-repeat left;
+       }
+     }
+     &:nth-child(2) {
+       background: url('../img/telephone.svg') no-repeat left;
+       &:hover, &:active {
+         transition: .2s all linear;
+         background: url('../img/telephoneactive.svg') no-repeat left;
+       }
+     }
+     &:nth-child(3) {
+       background: url('../img/envelope.svg') no-repeat left;
+       &:hover,&:active {
+         transition: .2s all linear;
+         background: url('../img//envelopeactive.svg') no-repeat left;
+       }
+     }
+     &::placeholder {
+       color: #f6c7d3;
+     }
+     &:active, &:hover {
+      transition: .2s all linear;
+      color: #f67496;
+      border-color: #f23063;
+      &::placeholder {
+       color: #f67496;
+      }
+     }
+    }
+    &[type="submit"] {
+      font-family: 'Museo Sans Cyrl 500', sans-serif;
+      color: rgba(51, 51, 51, 0.89);
+    }
+
+    &[type="checkbox"] {
+      background: red;
+    }
+
+}
+label {
+  a {
+    color: rgba(51, 51, 51, 0.89);
+    &:hover, &:active {
+      transition: .1s all linear;
+      text-decoration: none;
+      color: rgba(51, 51, 51, 0.89);
+    }
+  }
+}
+}
+ 
