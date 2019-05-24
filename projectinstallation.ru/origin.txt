@@ -1,0 +1,128 @@
+Uri: https://projectinstallation.ru/
+File Name: c:\Downloaded Web Sites\projectinstallation.ru\index.htm
+Content Type: text/html
+
+Uri: https://projectinstallation.ru/favicon.ico
+File Name: c:\Downloaded Web Sites\projectinstallation.ru\favicon.ico
+Content Type: image/vnd.microsoft.icon
+
+Uri: https://projectinstallation.ru/css/style.css
+File Name: c:\Downloaded Web Sites\projectinstallation.ru\css\style.css
+Content Type: text/css
+
+Uri: https://projectinstallation.ru/css/animate.css
+File Name: c:\Downloaded Web Sites\projectinstallation.ru\css\animate.css
+Content Type: text/css
+
+Uri: https://projectinstallation.ru/img/decorating.png
+File Name: c:\Downloaded Web Sites\projectinstallation.ru\img\decorating.png
+Content Type: image/png
+
+Uri: https://projectinstallation.ru/img/broken-cable.png
+File Name: c:\Downloaded Web Sites\projectinstallation.ru\img\broken-cable.png
+Content Type: image/png
+
+Uri: https://projectinstallation.ru/img/basin.png
+File Name: c:\Downloaded Web Sites\projectinstallation.ru\img\basin.png
+Content Type: image/png
+
+Uri: https://projectinstallation.ru/img/repairs_img.jpg
+File Name: c:\Downloaded Web Sites\projectinstallation.ru\img\repairs_img.jpg
+Content Type: image/jpeg
+
+Uri: https://projectinstallation.ru/img/CEH.jpg
+File Name: c:\Downloaded Web Sites\projectinstallation.ru\img\CEH.jpg
+Content Type: image/jpeg
+
+Uri: https://projectinstallation.ru/img/design.png
+File Name: c:\Downloaded Web Sites\projectinstallation.ru\img\design.png
+Content Type: image/png
+
+Uri: https://projectinstallation.ru/img/camera.png
+File Name: c:\Downloaded Web Sites\projectinstallation.ru\img\camera.png
+Content Type: image/png
+
+Uri: https://projectinstallation.ru/img/mechanism.jpg
+File Name: c:\Downloaded Web Sites\projectinstallation.ru\img\mechanism.jpg
+Content Type: image/jpeg
+
+Uri: https://projectinstallation.ru/img/screed.jpg
+File Name: c:\Downloaded Web Sites\projectinstallation.ru\img\screed.jpg
+Content Type: image/jpeg
+
+Uri: https://projectinstallation.ru/js/script.js
+File Name: c:\Downloaded Web Sites\projectinstallation.ru\js\script.js
+Content Type: application/javascript
+
+Uri: https://projectinstallation.ru/js/wow.min.js
+File Name: c:\Downloaded Web Sites\projectinstallation.ru\js\wow.min.js
+Content Type: application/javascript
+
+Uri: https://projectinstallation.ru/img/repairs-mobile.jpg
+File Name: c:\Downloaded Web Sites\projectinstallation.ru\img\repairs-mobile.jpg
+Content Type: image/jpeg
+
+Uri: https://projectinstallation.ru/img/ceh-mobile.jpg
+File Name: c:\Downloaded Web Sites\projectinstallation.ru\img\ceh-mobile.jpg
+Content Type: image/jpeg
+
+Uri: https://projectinstallation.ru/img/design-mobile.jpg
+File Name: c:\Downloaded Web Sites\projectinstallation.ru\img\design-mobile.jpg
+Content Type: image/jpeg
+
+Uri: https://projectinstallation.ru/img/camera-mobile.jpg
+File Name: c:\Downloaded Web Sites\projectinstallation.ru\img\camera-mobile.jpg
+Content Type: image/jpeg
+
+Uri: https://projectinstallation.ru/img/mechanism-mobile.jpg
+File Name: c:\Downloaded Web Sites\projectinstallation.ru\img\mechanism-mobile.jpg
+Content Type: image/jpeg
+
+Uri: https://projectinstallation.ru/img/screed-mobile.jpg
+File Name: c:\Downloaded Web Sites\projectinstallation.ru\img\screed-mobile.jpg
+Content Type: image/jpeg
+
+Uri: https://projectinstallation.ru/css/media.css
+File Name: c:\Downloaded Web Sites\projectinstallation.ru\css\media.css
+Content Type: text/css
+
+Uri: https://projectinstallation.ru/img/tobookBackground.png
+File Name: c:\Downloaded Web Sites\projectinstallation.ru\img\tobookBackground.png
+Content Type: image/png
+
+Uri: https://projectinstallation.ru/img/fa-phone-dark.svg
+File Name: c:\Downloaded Web Sites\projectinstallation.ru\img\fa-phone-dark.svg
+Content Type: image/svg+xml
+
+Uri: https://projectinstallation.ru/img/social_icon.png
+File Name: c:\Downloaded Web Sites\projectinstallation.ru\img\social_icon.png
+Content Type: image/png
+
+Uri: https://projectinstallation.ru/img/header__background-mobile.jpg
+File Name: c:\Downloaded Web Sites\projectinstallation.ru\img\header__background-mobile.jpg
+Content Type: image/jpeg
+
+Uri: https://projectinstallation.ru/img/towers_mobile.png
+File Name: c:\Downloaded Web Sites\projectinstallation.ru\img\towers_mobile.png
+Content Type: image/png
+
+Uri: https://projectinstallation.ru/img/firstBackground.png
+File Name: c:\Downloaded Web Sites\projectinstallation.ru\img\firstBackground.png
+Content Type: image/png
+
+Uri: https://projectinstallation.ru/img/logo.png
+File Name: c:\Downloaded Web Sites\projectinstallation.ru\img\logo.png
+Content Type: image/png
+
+Uri: https://projectinstallation.ru/img/fa-phone.svg
+File Name: c:\Downloaded Web Sites\projectinstallation.ru\img\fa-phone.svg
+Content Type: image/svg+xml
+
+Uri: https://projectinstallation.ru/img/priceBackground.png
+File Name: c:\Downloaded Web Sites\projectinstallation.ru\img\priceBackground.png
+Content Type: image/png
+
+Uri: https://projectinstallation.ru/img/controlbackground.png
+File Name: c:\Downloaded Web Sites\projectinstallation.ru\img\controlbackground.png
+Content Type: image/png
+
