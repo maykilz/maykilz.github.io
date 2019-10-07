@@ -1,0 +1,246 @@
+$green: #8BC24C; 
+
+body { 
+ font-family: 'Open Sans', sans-serif; 
+ font-weight: 300;
+ color: #1A1A1A; 
+}
+header {
+ padding: 22px 0px;  
+}
+
+ 
+a{ 
+  &:hover,&:active {
+   text-decoration: none;
+  }
+}
+
+main {
+ color: #1A1A1A; 
+}
+
+.navbar-brand, .advantages__tittle {
+ font-family: 'Raleway Bold', arial;
+}
+.navbar-toggler {
+ border:  none; 
+}
+.nav-link {
+ color: #fff !important;
+ padding: 15px 0px; 
+ border: 1px solid transparent;
+ font-size: 20px; 
+ &:hover {  
+  border-bottom: 1px solid #000; 
+ }
+}
+
+
+
+.header__phone { 
+ color: #000;
+ &:hover,&:active{  
+ color: $green;  
+ } 
+}
+
+h1,h2, .newsitem__tittle {
+ font-family: 'Raleway', sans-serif; 
+}
+h1 { 
+ font-size: 10vw;  
+ padding-top: 57px; 
+} 
+
+.section__text { 
+ font-size: 4.688vw;
+ padding-top: 30px;
+}
+
+@keyframes us { 
+  from {
+    background: $green; 
+  }
+  to { 
+    background:    #669e26; ; ; 
+  }
+}
+
+ 
+
+
+.button {
+ display: block;
+ background: $green; 
+ color: #fff; 
+ text-align: center; 
+ padding: 15px 0px;
+ margin-top: 50px;
+ margin-bottom: 57px;
+ &:hover,&:active {
+  color: #fff; 
+  text-decoration: none; 
+  animation: us .7s,  ease-in paused; 
+ }
+}
+
+.comfort {
+ background: url('../img/comfort_mobile.png') no-repeat center;
+ background-size: cover; 
+ color: #fff; 
+}
+
+h2 {
+ font-size: 9.375vw;
+ padding-top: 60px; 
+}
+.advatages__list {
+ margin-top: 40px;
+ margin-bottom: 60px;
+}
+.advantages__item {
+ box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.06);
+ margin-top: 15px; 
+ padding: 0 5%; 
+}
+.advatages__image {
+ margin-top: 20px; 
+}
+.advantages__tittle {
+ position: relative;
+ font-size: 18px;   
+ padding-left: 20px; 
+ top: 40px;
+}
+
+.advantages__text {
+ font-size: 16px; 
+ padding-top: 20px; 
+ padding-bottom: 17px; 
+ line-height: 24px; 
+}
+ 
+
+
+ 
+
+.works__block {
+ position: relative; 
+ &:hover,&:active { 
+   
+  transition: all 4s ease-in 4s; 
+  .works__info {
+    
+  display: block;
+  }
+ }
+}
+
+.works__info {
+ position: absolute;
+ top: 0px;
+ display: none; 
+}
+
+.reviews {
+ background: #fafafa; 
+}
+
+
+.reviews__item {
+ position: relative;
+}
+
+.reviews__play {
+ font-size: 0px; 
+ position: absolute;
+ z-index: 1;
+ border: none; 
+ cursor: pointer;
+ margin-left: auto;
+ margin-right: auto;
+ left: 0px;
+ right: 0px;;
+ top: 170px; 
+ bottom: 50%;
+ width: 100px;
+ height: 100px; 
+ background: url('../img/play.png') no-repeat center;  
+ padding: 0px; 
+}
+
+.newsitem__block {
+ background: #fff; 
+}
+.newsitem__tittle {
+ display: inline-block;
+}
+
+ 
+.newsitem__link, .news__info time, span {
+
+  color:rgba(0, 0, 0, 0.6);
+ }
+.newsitem__link { 
+ text-decoration: underline; 
+ &:hover {
+  color: $green; 
+ }
+ &:active {
+   color:   #669e26;
+ }
+}
+
+.news__info {
+ span, time { 
+  position: relative; 
+ } 
+}
+
+.newslist__time {
+ margin-left: 25px;
+ &::after{ 
+  content: "";
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background: url('../img/calendar.svg') no-repeat center;
+  background-size: cover;
+  left: -25px;
+  top: -2px;  
+ } 
+} 
+
+.newslist__commentcount {
+ &::after {
+  content: "";
+  position: absolute;
+  width: 22px;
+  height: 18px;
+  background: url('../img/coment.svg') no-repeat center;
+  background-size: cover;
+  left:  -30px; 
+  top: 2px; 
+ }
+}
+ 
+.newslist__viewcount {
+ margin-left: 25px;
+ &::after {
+  content: "";
+  position: absolute;
+  width: 20px;
+  height: 16px;
+  background: url('../img/view.svg') no-repeat center;
+  background-size: contain; 
+  left: -25px; 
+  top: 3px; 
+ }
+}
+
+@import url('../css/media.css'); 
+
+
+
+ 
