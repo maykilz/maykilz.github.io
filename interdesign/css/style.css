@@ -76,12 +76,13 @@ h1 {
   padding: 15px 0px;
   margin-top: 50px;
   margin-bottom: 57px;
-  border: none; }
+  border: none;
+  transition: .2s, all, ease-in;
+}
   .button:hover, .button:active {
     color: #fff;
-    text-decoration: none;
-    -webkit-animation: us .7s,  ease-in paused;
-    animation: us .7s,  ease-in paused; }
+    text-decoration: none; 
+  background: #669e26; }
  
 
 .comfort {
