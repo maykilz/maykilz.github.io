@@ -8,6 +8,8 @@
 
 * {
   outline: none; 
+  
+  transition: background 0.3s ease, color 0.2s linear;
 }
 
 body {
@@ -73,8 +75,7 @@ h1 {
   padding: 15px 0px;
   margin-top: 50px;
   margin-bottom: 57px;
-  border: none;
-  transition: background 0.3s ease, color 0.2s linear;
+  border: none; 
 }
 
  
@@ -125,9 +126,7 @@ h2 {
 .works__block {
   position: relative; }
   .works__block:hover, .works__block:active {
-    -webkit-transition: all 4s ease-in 4s;
-    -o-transition: all 4s ease-in 4s;
-    transition: all 4s ease-in 4s; }
+   }
     .works__block:hover .works__info, .works__block:active .works__info {
       display: block; }
 
