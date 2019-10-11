@@ -24,6 +24,9 @@ a:hover, a:active {
 main {
   color: #1A1A1A; }
 
+header {
+  height: 100px;
+}
 .navbar-brand, .advantages__tittle {
   font-family: 'Raleway Bold', arial; }
 
