@@ -82,6 +82,12 @@ h1 {
     text-decoration: none;
     -webkit-animation: us .7s,  ease-in paused;
     animation: us .7s,  ease-in paused; }
+  .button:not(:hover){
+   transition: .7s, ease-in paused;
+
+      background: #8BC24C;
+      color: #fff;
+}
 
 .comfort {
   background: url("../img/comfort_mobile.png") no-repeat center;
