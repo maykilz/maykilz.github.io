@@ -74,7 +74,7 @@ h1 {
   margin-top: 50px;
   margin-bottom: 57px;
   border: none;
-  transition: all 1s ease-out;
+  ttransition: background 0.3s ease, color 0.2s linear;
 }
 
  
