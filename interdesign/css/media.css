@@ -9,8 +9,7 @@
 @media (max-width: 771px) {
   .navbar {
     position: absolute;
-    width: 100%;
-    padding: 30px 0px; 
+    width: 100%; 
   }
   .newsitem__space {
     padding: 0 20px; }
