@@ -74,7 +74,7 @@ h1 {
   margin-top: 50px;
   margin-bottom: 57px;
   border: none;
-  ttransition: background 0.3s ease, color 0.2s linear;
+  transition: background 0.3s ease, color 0.2s linear;
 }
 
  
@@ -84,7 +84,7 @@ h1 {
     text-decoration: none; 
   background: #669e26; }
  .button:not(:hover),(:active){
-  background: #8BC24C
+  background: #8BC24C;
 }
 
 .comfort {
