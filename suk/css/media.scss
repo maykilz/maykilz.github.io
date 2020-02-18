@@ -1,0 +1,403 @@
+// Small devices (landscape phones, 576px and up)
+ 
+@media (min-width: 576px) {  
+
+}
+
+// Medium devices (tablets, 768px and up)
+
+@media (max-width: 768px) {
+ .textsize {
+  font-size: 3.733vw;
+  line-height: 22px;
+ }
+ header{
+  padding-top: 36px;
+ }
+ .button {
+  font-size: 4.267vw;
+  padding: 19px 0px; 
+  border-radius: 5px;
+ }
+ .main__head {
+  background: url('../img/hero-image-mobile.png') no-repeat right center;
+  background-size: 45%;
+ }
+ h1 {
+  font-size: 5.2vw; 
+  line-height: 24px;
+  padding-top: 64px;
+  padding-bottom: 14px;
+ }
+ h2 {
+  font-size: 4.267vw;
+  padding-top: 65px;
+ }
+ .head__tittle {
+  font-size: 3.733vw;
+ }
+ .advantages__items {
+  margin-top: 20px;
+ }
+ .advantages__item {
+  margin-top: 30px;
+ }
+ .text__tittle {
+  font-size: 3.733vw;
+  line-height: 150%;
+ }
+ .head__button {
+  margin: 56px 0px;
+ }
+ .advantages__icon {
+  width: 30px;
+  height: 30px;
+  margin-right: 15px;
+ }
+ .services__item__head {
+  font-size: 4.800vw;
+ }
+ .services__characteristic__items {
+  margin-top: 27px;
+ }
+ .services__characteristic {
+  font-size: 3.467vw;
+  margin-top: 5px;
+ }
+ .services__list { 
+  margin-bottom: 65px;
+ }
+ .services__item  {
+  margin-top: 30px; 
+  padding: 0px;
+ } 
+ .services__item__centering  { 
+  box-shadow: 0px 4px 44px rgba(166, 166, 166, 0.25);
+  
+ }
+ .services__item__centering, .complete__slider__text {  
+  border-radius: 10px; 
+ }
+ .services__item__centering {
+   margin: 0 3%;
+ }
+ .services__item__content{
+  padding: 0 5%;;
+ }
+ .services__item__head {
+  font-size: 4.800vw;
+  padding-top: 25px;
+ }
+ .services__item__price {
+  font-size: 4.800vw;
+  padding-top: 6px;
+ } 
+ .services__button {
+  margin-top: 27px;
+  margin-bottom: 44px;
+ }
+ .complete__slider__head {
+  font-size: 4.267vw;
+  padding-top: 30px;
+  padding-bottom: 30px;
+ }
+ .section__tittle, .workslist__text {
+  font-size: 3.200vw;
+ }
+ .section__tittle {
+  display: inline-block;
+  padding-top: 15px;
+ }
+ .complete__slider__text {
+  margin-top: 22px;
+  margin-bottom: 110px;
+ }
+ .reviewblock__text  {
+  padding-top: 14px;
+  padding-bottom: 38px;
+ }
+
+ .complete__slider, .reviews__slider  { 
+  .slick-list {
+   margin-top: 30px;
+   margin-bottom: 65px;
+  }
+  .slick-dots  {  
+   margin: 0 auto;
+   li { 
+    button { 
+    &::before { 
+     content: "";
+     font-size: 0px;
+     border-radius: 50%;
+     border: 2px solid #F0BC5E;
+    }
+    }
+   }
+   .slick-active {
+    button { 
+     &::before {
+      background: #F0BC5E;;
+     }
+     }
+   }
+   bottom: 8vh !important;
+  }
+ }
+ .workslist {
+   margin-top: 40px; 
+ }
+ .workslist__item  {
+  margin-top: 30px;
+  &:first-child {
+   margin-top: 0px;
+  }
+ }
+ .workslist__icon {
+  width: 70px;
+  height: 70px;
+  margin-right: 27px;
+ }
+ .gift__button {
+  margin-top: 30px;
+  margin-bottom: 40px;
+ }
+}
+
+@media (min-width: 768px) {   }
+
+ 
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { 
+ header{
+  padding-top: 50px; 
+ }
+
+ .nav-link {
+  font-size: 16px; 
+ }
+ .button { 
+  padding: 19px 51px; 
+  border-radius: 5px;
+  font-size: 16px;
+ }
+ h1 {
+  font-size: 36px;
+  line-height: 48px;
+ }
+ .main__head {
+  height: 800px;
+  background: url('../img/hero-image.png') no-repeat right;
+  background-size: 50%;
+ }
+ .head__content{ 
+  padding-top: 120px;;
+ }
+ .advantages__items  {
+  margin-top: 47px;;
+ }
+ .advantages__item {
+  margin-top: 24px; ;
+ }
+ .head__button {
+  margin-top: 70px;
+  margin-bottom: 270px;
+ }
+ .head__tittle {
+  font-size: 18px;
+ }
+
+ .text__tittle {
+  font-size: 16px;
+ }
+ .reviewblock__text {
+  font-size: 15px;
+ }
+ h2 {
+  padding-top: 65px;
+  padding-bottom: 21px;
+  font-size: 24px;
+  line-height: 32px;
+ }
+
+ .services__list {
+  margin-top: 45px;
+  padding-bottom: 65px;
+ }
+ .services__item {
+  margin: 0px;
+ }
+ .services__item__content {
+  padding: 0 5%; 
+ }
+
+ h3 {
+  font-size: 22px;
+ }
+ .services__item__centering {
+  border: 1px solid #EEEEEE;
+  box-shadow: 0px 4px 44px rgba(166, 166, 166, 0.25);
+  border-radius: 10px;
+ }
+ .services__img {
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;;
+ }
+ .services__item__head {
+  padding-top: 23px; 
+  padding-bottom: 3px;
+ }
+ .services__item__price {
+  font-size: 24px; 
+ }
+ .services__characteristic__items {
+  margin-top: 14px;
+  margin-bottom: 30px;
+ }
+ .services__characteristic, .workslist__text {
+  font-size: 14px; 
+ }
+ .services__item__respan {
+  display: inline-block;
+  padding-bottom: 17px;;
+ }
+ .services__button {
+  margin-bottom: 41px;
+ }
+ .complete, .reviews {
+  padding-bottom: 100px;
+ }
+ .complete__slider, .reviews__slider  { 
+  .slick-list {
+   margin-top: 65px;
+   margin-bottom: 20px;
+  }
+  .slick-dots  {
+   width: 58.333333%; 
+   li { 
+    button { 
+    &::before { 
+     content: "";
+     font-size: 0px;
+     border-radius: 50%;
+     border: 2px solid #F0BC5E;
+    }
+    }
+   }
+   .slick-active {
+    button { 
+     &::before {
+      background: #F0BC5E;;
+     }
+     }
+   }
+   bottom: -5vh !important;
+  }
+ }
+ .complete__slidercontent, .reviews__slidercontent {
+  padding-right: 3%;
+ }
+ .complete__slider__text, .reviews__slider__text { 
+  box-shadow: 0px 4px 44px rgba(184, 184, 184, 0.25);
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+ } 
+ .complete__slider__head, .reviews__slider__head{ 
+  font-size: 18px;
+  padding-top: 42px; 
+ }
+ .textsize {
+  font-size: 16px;
+ } 
+ .complete__slider__info, .reviews__slider__info {
+  line-height: 25px;
+ }
+ .reviewblock__text {
+  font-size: 15px;
+  padding-top: 15px;
+ } 
+ .workslist {
+  margin-top: 40px;
+  margin-bottom: 65px;
+ }
+ .workslist__item {
+  margin-top: 55px;
+ }
+ .workslist__icon {
+  display: block;
+  width: 70px;
+  height: 70px;
+  object-fit: contain;
+  margin-right: 27px;
+ }
+ .workslist__text {
+   padding-top: 5px;
+ }
+ .gift__tittle {
+   margin-top: 24px;
+ }
+ .gift__button {
+   margin-top: 41px;
+ }
+ .gift-image {
+  margin-bottom: 98px;
+ }
+
+ #accordion { 
+  .card-header  {
+			box-shadow: 0px 4px 44px rgba(184, 184, 184, 0.25);
+   border-radius: 10px;
+  }
+	}
+	
+	.question {
+		background: url('../img/question-image.png') no-repeat right top;
+  background-size: 50%;
+  }
+  .remained  {   
+   background: url('../img/phone.png') no-repeat left 100px;
+   background-size: 50%; 
+   padding-bottom: 164px;
+  }
+  .question__head {
+    padding-top: 150px;
+  }
+  .remained__button {
+   margin-top: 43px;
+   margin-bottom: 165px;
+  }
+ .map  {  
+  background: url('../img/map.png') no-repeat left  top; 
+  background-size: 100% auto;
+ }  
+ .map__contact {  
+  border-radius: 10px; 
+  margin-top: 100px;
+  margin-bottom: 58px;
+  padding-top: 48px;
+  padding-bottom: 56px;
+  color: #fff; 
+  font-size: 16px;
+ }
+ .map__head  {
+  font-size: 24px; 
+  padding-bottom: 38px;
+ }
+ .map__phone, .map__time {
+  padding-top: 20px;
+ }
+ .map_button {
+  margin-top: 38px;
+ }
+ footer {
+  padding: 50px 0px; 
+  a:not(.navbar-brand) {
+   font-size: 18px; 
+   padding-top: 5px; 
+  }
+ }
+}
+ 
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {   }

@@ -1,0 +1,179 @@
+$yellow: #FFCC69; 
+
+$graycolor: rgba(114, 117, 142, 0.05); 
+ 
+* {
+ font-family: 'Roboto', sans-serif;
+}
+
+// body {
+//  background: red ;
+// }
+ 
+
+.nav-link {
+ color: #000 !important;
+ &:hover,&:active { 
+  border-bottom: 1px solid $yellow;
+ }
+}
+
+.header__phone {
+ color: #000 !important;
+}
+
+h1, h2, h3, .services__item__price {
+ font-family: 'Playfair Display', serif;  
+}
+h1, h2, h3 {
+ font-weight: 900;
+}  
+
+ .complete__slider, .reviews__slider  {  
+  * {
+    outline: none;;  
+  }
+ }
+
+ 
+
+ .graybg {
+  background: $graycolor;
+ }
+.advantages__icon {
+ margin-right: 10px;
+}
+.price__icon {
+ width: 26px;
+ height: 30px; 
+}
+
+.resoults__icon{ 
+ width: 35px;
+ height: 25px;
+}
+
+.warranty__icon, .portfolio__icon {
+ width: 30px;
+ height: 30px;
+}
+
+.button {
+ display: block;
+ text-align: center;;
+ color: #000;
+ background: $yellow;  
+ font-weight: 900; 
+ &:hover,&:active{ 
+  text-decoration: none;
+  color: #000; 
+ }
+}
+
+
+ 
+ 
+.section__tittle {
+ color: #666;
+}
+
+
+.youtube-image  {
+ width: 100%;
+ object-fit: cover;;
+}
+
+.services__item__centering {
+ height:  100%; 
+}
+
+.services__item__respan {
+ color: #000;
+ text-decoration: underline;
+ &:hover,&:active {
+  text-decoration: none;
+  color:  #000; 
+ }
+}
+.reviewblock__tittle, .workslist__tittle, .complete__slider__head, .map__head, .reviews__slider__head {
+ font-weight: bold;
+}
+
+.complete__slider__text, .reviews__slider__text  {
+ background: #fff;
+} 
+
+.complete__slider__info, .reviews__slider__info  {
+ span {
+  color: $yellow; 
+ }
+}
+  
+#accordion {
+ h5 {
+  position: relative;
+  &:before {
+   content: "";
+   position: absolute;
+   width: 10px;
+   height: 5px;
+   background: url('../img/vector.svg') no-repeat center; 
+   right: 0px; 
+   top: 15px;
+  } 
+ }
+ .card { 
+  margin-top: 15px;  
+ }
+ .card-header  {
+  background: #fff; 
+ }
+ button {
+  color: #000;
+ }
+}
+
+.remained__button {
+ background: none !important;
+ border: 2px solid $yellow;
+}
+
+.map__contact{ 
+ background: #72758E; 
+}
+
+address {
+ margin-bottom: 0px;
+}
+
+.map__phone, .map__time {
+ display: inline-block;
+}
+
+.map__phone {
+ color: #fff;
+ &:hover,&:active{ 
+  color: #fff;
+  text-decoration: none; 
+ }
+}
+
+footer  { 
+ background: #72758E; 
+ a {
+  color: #fff;
+  display: inline-block; 
+  &:hover,&:active,&:focus {
+   transition: .2s all ease-in-out; 
+   color: #ddd; 
+  }
+ }
+}
+
+.footer__polytics {
+ text-decoration: underline;
+}
+
+ 
+@import url('../css/media.css'); 
+ 
