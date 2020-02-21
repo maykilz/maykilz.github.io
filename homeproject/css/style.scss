@@ -1,0 +1,264 @@
+$yellow: #FFCC69; 
+
+$graycolor: rgba(114, 117, 142, 0.05); 
+ 
+*, .map__head {
+ font-family: 'Roboto', sans-serif;
+}
+
+// body {
+//  background: red ;
+// }
+
+// body {
+//  background: red;
+// }
+ 
+
+.nav-link {
+ color: #000 !important;
+ font-size: 16px; 
+ &:hover,&:active { 
+  border-bottom: 1px solid $yellow;
+ }
+}
+
+.header__phone {
+ color: #000 !important; 
+}
+
+h1, h2, h4 , h5,  .services__item__price, .services__price, .services__subhead {
+ font-family: 'Playfair Display', serif;  
+}
+h1, h2, h3 , h4, h5{
+ font-weight: 900;
+}  
+
+ .complete__slider, .reviews__slider  {  
+  * {
+    outline: none;;  
+  }
+ }
+
+ .advantages__subhead {
+  display: inline-block;
+ }
+
+
+ 
+
+ .graybg {
+  background: $graycolor;
+ }
+.advantages__icon {
+ display: block; 
+ margin-right: 10px; 
+ object-fit: contain;
+} 
+
+.button {
+ display: block;
+ text-align: center;;
+ color: #000;
+ background: $yellow;  
+ font-weight: 900; 
+ border: none;;
+ &:hover,&:active{ 
+  text-decoration: none;
+  color: #000; 
+ }
+}
+
+
+ 
+ 
+.section__tittle, .complete__slider__reviewhead, .reviews__slider__reviewhead {
+ color: #666;
+}
+
+.text__tittle, .services__price  {
+ display: inline-block;
+}
+
+
+.youtube-image  {
+ width: 100%;
+ object-fit: cover;;
+}
+
+.services__content {
+ height:  100%; 
+}
+ 
+
+.services__open{
+
+ color: #000;
+ text-decoration: underline;
+}
+
+.services__item__respan {
+ color: #000;
+ text-decoration: underline;
+ &:hover,&:active {
+  text-decoration: none;
+  color:  #000; 
+ }
+}
+.reviewblock__tittle, .workslist__tittle, .complete__slider__head, .map__head, .benefit__tittle {
+ font-weight: bold;
+}
+
+.complete__slider__text, .reviews__slider__text  {
+ background: #fff;
+} 
+
+.complete__slider__info, .reviews__slider__info  {
+ span {
+  color: $yellow; 
+ }
+}
+  
+#accordion {
+ h5 {
+  position: relative;
+  &:before {
+   content: "";
+   position: absolute;
+   width: 10px;
+   height: 5px;
+   background: url('../img/vector.svg') no-repeat center; 
+   right: 0px; 
+   top: 15px;
+  } 
+ }
+ .card { 
+  margin-top: 15px;  
+ }
+ .card-header  {
+  background: #fff; 
+ }
+ button {
+  color: #000;
+ }
+}
+
+
+
+
+.complete__slider, .reviews__slider {
+ .carousel-indicators li {
+   border-radius: 50%;
+   border: 2px solid $yellow;
+ }
+ .carousel-indicators .active {
+  background: $yellow;
+ }
+}
+
+
+.complete__slider__center {
+ background: #fff;
+ height: 100%;
+}
+
+.complete__slider__img {
+ width: 100%;
+ object-fit: cover;
+}
+
+.complete__slider__description, .reviews__slider__description  {
+ span {
+  color: $yellow;
+ }
+}
+
+.benefit__icon {
+  object-fit: contain;
+}
+
+
+.remained__button {
+ background: none !important;
+ border: 2px solid $yellow;
+}
+
+.question__accordion {
+  a {
+    color: #333;
+  }
+  span {
+    font-weight: normal;
+  }
+  .panel-title {
+   position: relative;
+   a {
+   &::before  {
+    position: absolute;
+    content: "";
+    width: 11px;
+    height: 7px;
+    background: url('../img/vector.svg') no-repeat center;
+    right: 20px;
+    top: 20px;
+   }
+  }
+  }
+  .panel-body {
+    color: #72758E;
+  }
+}
+
+
+.balance__image {
+ width: 100%;
+ object-fit: cover ;
+}
+.balance__button {
+ background: none;
+ border: 2px solid $yellow;
+}
+
+.map {
+ color: #fff;
+}
+.map__contact{ 
+ background: #72758E; 
+}
+
+address {
+ margin-bottom: 0px;
+}
+
+.map__phone, .map__time {
+ display: inline-block;
+}
+
+.map__phone {
+ color: #fff;
+ &:hover,&:active{ 
+  color: #fff;
+  text-decoration: none; 
+ }
+}
+
+footer  { 
+ background: #72758E; 
+ padding: 30px 0px ;
+ a {
+  color: #fff;
+  display: inline-block; 
+  &:hover,&:active,&:focus {
+   transition: .2s all ease-in-out; 
+   color: #ddd; 
+  }
+ }
+}
+
+.footer__polytics {
+ text-decoration: underline;
+}
+
+ 
+@import url('../css/media.css'); 
+ 
