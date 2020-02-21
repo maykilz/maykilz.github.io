@@ -1,0 +1,583 @@
+@charset "UTF-8";
+/* xl-размер (>=1200px) */
+/* CSS для >=1200px */
+/* lg-размер (<=1199px) */
+@media (min-width: 991px) {
+  header {
+    padding: 65px 0px;
+  }
+
+  .advantages {
+    background: url("../img/hero-image.png") no-repeat right top;
+    background-size: 50%;
+  }
+
+  h1 {
+    font-size: 36px !important;
+    margin-top: 28px;
+    margin-bottom: 21px;
+  }
+
+  .advantages__subhead, .text__tittle {
+    font-size: 16px;
+  }
+
+  .advantages__items {
+    margin-top: 50px;
+  }
+
+  .button {
+    padding: 19px 0px;
+    border-radius: 5px;
+  }
+
+  .head__button {
+    margin-top: 45px;
+    margin-bottom: 270px;
+  }
+
+  .advantages__item {
+    margin-top: 25px;
+  }
+
+  .section__head {
+    font-size: 24px;
+    padding-top: 35px;
+    padding-bottom: 15px;
+  }
+
+  .section__tittle {
+    padding-top: 6px;
+  }
+
+  .services__items {
+    margin-top: 45px;
+    margin-bottom: 65px;
+  }
+
+  .services__img {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+  }
+
+  .services__subhead {
+    font-size: 22px;
+    padding-top: 23px;
+    padding-bottom: 3px;
+  }
+
+  .services__content {
+    border: 1px solid #EEEEEE;
+    box-shadow: 0px 4px 44px rgba(166, 166, 166, 0.25);
+    border-radius: 10px;
+  }
+
+  .services__centering {
+    padding: 0 5%;
+  }
+
+  .services__price {
+    font-size: 24px;
+  }
+
+  .serivices__descriptions {
+    margin-top: 14px;
+  }
+
+  .services__descriptionitem {
+    font-size: 14px;
+  }
+
+  .services__button {
+    margin-top: 30px;
+    margin-bottom: 44px;
+  }
+
+  .services__item {
+    margin-top: 30px;
+  }
+  .services__item:last-child .serivices__descriptions {
+    margin-bottom: 0px;
+  }
+  .services__item:last-child .services__button {
+    margin-top: 10px;
+  }
+
+  .complete {
+    padding-bottom: 20px;
+  }
+
+  .complete__slider, .reviews__slider {
+    margin-top: 65px;
+    margin-bottom: 33px;
+  }
+  .complete__slider .carousel-inner, .reviews__slider .carousel-inner {
+    padding-bottom: 33px;
+  }
+  .complete__slider .carousel-indicators, .reviews__slider .carousel-indicators {
+    width: 140px;
+    margin: 0px;
+    margin-left: 20%;
+    bottom: -10px;
+    margin-top: 20px;
+  }
+  .complete__slider .carousel-indicators li, .reviews__slider .carousel-indicators li {
+    width: 15px !important;
+    height: 15px !important;
+  }
+
+  .complete__slider__center, .reviews__slider__center {
+    box-shadow: 0px 4px 44px rgba(184, 184, 184, 0.25);
+    border-radius: 10px;
+    padding: 42px 5%;
+  }
+
+  .complete__slider__head, .reviews__slider__head {
+    font-size: 18px;
+  }
+
+  .complete__slider__reviewtext, .reviews__slider__reviewtext {
+    font-size: 15px;
+    margin-top: 4px;
+    margin-bottom: 59px;
+  }
+
+  .benefit__items {
+    margin-top: 46px;
+    margin-bottom: 65px;
+  }
+
+  .benefit__item {
+    margin-top: 49px;
+  }
+
+  .benefit__icon {
+    width: 70px;
+    height: 70px;
+    margin-right: 27px;
+  }
+
+  .benefit__text {
+    font-size: 14px;
+    padding-top: 5px;
+  }
+
+  .gift__textblock {
+    padding-top: 130px;
+  }
+
+  .gift__head {
+    font-size: 36px;
+  }
+
+  .gift_tittle {
+    padding-top: 46px;
+  }
+
+  .gift_button {
+    margin-top: 41px;
+    margin-bottom: 180px;
+  }
+
+  .gift-image {
+    margin-top: 95px;
+  }
+
+  .question__accordion {
+    margin-top: 65px;
+    margin-bottom: 97px;
+  }
+  .question__accordion .panel-heading {
+    padding: 19px 2%;
+    margin-top: 15px;
+    box-shadow: 0px 4px 44px rgba(184, 184, 184, 0.25);
+    border-radius: 10px;
+  }
+  .question__accordion .panel span {
+    font-size: 16px;
+  }
+  .question__accordion .panel-body {
+    background: none;
+    margin-top: 15px;
+    margin-bottom: 12px;
+    font-size: 16px;
+    padding: 0 3%;
+  }
+
+  /* CSS для ширины от 992px до 1199px */
+}
+/* md-размер (<=991px) */
+@media (max-width: 991px) {
+  /* CSS для ширины от 768px до 991px */
+  header {
+    padding: 40px 0px;
+  }
+
+  .advantages {
+    background: url("../img/hero-image.png") no-repeat right top;
+    background-size: 40%;
+  }
+
+  h1 {
+    font-size: 25px !important;
+    margin-top: 20px;
+    margin-bottom: 21px;
+  }
+
+  .section__head {
+    font-size: 20px;
+    padding-top: 30px;
+    padding-bottom: 10px;
+  }
+
+  .advantages__subhead, .text__tittle {
+    font-size: 15px;
+  }
+
+  .advantages__items {
+    margin-top: 40px;
+  }
+
+  .button {
+    padding: 19px 0px;
+    border-radius: 5px;
+  }
+
+  .head__button {
+    margin-top: 35px;
+    margin-bottom: 100px;
+  }
+
+  .advantages__item {
+    margin-top: 25px;
+  }
+
+  .services__items {
+    margin-top: 45px;
+    margin-bottom: 65px;
+  }
+
+  .services__img {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+  }
+
+  .services__subhead {
+    font-size: 18px;
+    padding-top: 23px;
+    padding-bottom: 3px;
+  }
+
+  .services__content {
+    border: 1px solid #EEEEEE;
+    box-shadow: 0px 4px 44px rgba(166, 166, 166, 0.25);
+    border-radius: 10px;
+  }
+
+  .services__centering {
+    padding: 0 5%;
+  }
+
+  .services__price {
+    font-size: 20px;
+  }
+
+  .serivices__descriptions {
+    margin-top: 14px;
+  }
+
+  .services__descriptionitem {
+    font-size: 13px;
+  }
+
+  .services__button {
+    margin-top: 25px;
+    margin-bottom: 35px;
+  }
+
+  .services__item:nth-child(3) {
+    margin-top: 20px;
+  }
+
+  .complete, .reviews {
+    padding-bottom: 40px;
+  }
+
+  .complete__slider, .reviews__slider {
+    margin-top: 50px;
+    padding-bottom: 10px;
+  }
+  .complete__slider .carousel-indicators, .reviews__slider .carousel-indicators {
+    width: 140px;
+    margin: 0 auto;
+    margin-top: 30px;
+    bottom: -20px;
+  }
+  .complete__slider .carousel-indicators li, .reviews__slider .carousel-indicators li {
+    width: 15px !important;
+    height: 15px !important;
+  }
+
+  .complete__slider__center, .reviews__slider__center {
+    padding: 30px 5%;
+    margin-top: 22px;
+    box-shadow: 0px 4px 44px rgba(184, 184, 184, 0.25);
+    border-radius: 10px;
+  }
+
+  .complete__slider__description, .reviews__slider__description {
+    margin-top: 22px;
+    line-height: 30px;
+  }
+
+  .complete__slider__reviewhead, .reviews__slider__reviewhead {
+    margin-top: 33px;
+  }
+
+  .complete__slider__reviewtext, .reviews_slider__reviewtext {
+    font-size: 18px;
+    margin-top: 14px;
+    margin-bottom: 38px;
+  }
+
+  .benefit__items {
+    margin-top: 3px;
+    margin-bottom: 25px;
+  }
+
+  .benefit__item {
+    margin-top: 30px;
+  }
+
+  .benefit__icon {
+    width: 70px;
+    height: 70px;
+    margin-right: 28px;
+  }
+
+  .benefit__text {
+    font-size: 15px;
+  }
+
+  .gift__textblock {
+    padding-top: 90px;
+  }
+
+  .gift__head {
+    font-size: 25px;
+  }
+
+  .gift_tittle {
+    padding-top: 25px;
+  }
+
+  .gift_button {
+    margin-top: 20px;
+    margin-bottom: 100px;
+  }
+
+  .gift-image {
+    margin-top: 95px;
+  }
+}
+/* sm-размер (<=768px) */
+@media (max-width: 767px) {
+  header {
+    padding: 35px 0px;
+  }
+
+  .header__phone {
+    font-size: 4.8vw;
+  }
+
+  .advantages {
+    background: url("../img/hero-image-mobile.png") no-repeat center right;
+    background-size: 50%;
+  }
+
+  h1 {
+    font-size: 4.8vw !important;
+  }
+
+  .advantages__subhead {
+    font-size: 3.733vw;
+    padding-top: 14px;
+  }
+
+  .advantages__items {
+    margin-top: 10px;
+  }
+
+  .advantages__item {
+    margin-top: 30px;
+  }
+
+  .advantages__icon {
+    width: 35px;
+    height: 35px;
+    margin-top: 10px;
+  }
+
+  .button {
+    padding: 19px 0px;
+    border-radius: 5px;
+  }
+
+  .head__button {
+    margin: 46px 0px;
+  }
+
+  .services__content {
+    box-shadow: 0px 4px 44px rgba(166, 166, 166, 0.25);
+    border-radius: 10px;
+    border: 1px solid #EEEEEE;
+  }
+
+  .advantages__subhead, .text__tittle {
+    font-size: 14px;
+  }
+
+  .section__head, .complete__slider__head {
+    font-size: 16px;
+  }
+
+  .section__head {
+    margin-top: 46px;
+  }
+
+  .section__tittle {
+    padding: 15px 0px;
+  }
+
+  .services__item {
+    margin-top: 30px;
+  }
+  .services__item:first-child {
+    margin-top: 30px;
+  }
+
+  .services__centering {
+    padding: 0 5%;
+  }
+
+  .services__subhead, .services__price {
+    font-size: 18px;
+  }
+
+  .services__img {
+    border-radius: 10px;
+  }
+
+  .services__price {
+    padding-top: 6px;
+    padding-bottom: 6px;
+  }
+
+  .serivices__descriptions {
+    margin-top: 27px;
+  }
+
+  .services__descriptionitem {
+    font-size: 15px;
+  }
+
+  .services__button {
+    margin-top: 27px;
+    margin-bottom: 44px;
+  }
+
+  .complete, .reviews {
+    padding-bottom: 40px;
+  }
+
+  .complete__slider, .reviews__slider {
+    padding-bottom: 10px;
+  }
+  .complete__slider .carousel-indicators, .reviews__slider .carousel-indicators {
+    width: 140px;
+    margin: 0 auto;
+    margin-top: 30px;
+    bottom: -20px;
+  }
+  .complete__slider .carousel-indicators li, .reviews__slider .carousel-indicators li {
+    width: 15px !important;
+    height: 15px !important;
+  }
+
+  .complete__slider__center, .reviews__slider__center {
+    padding: 30px 5%;
+    margin-top: 22px;
+    box-shadow: 0px 4px 44px rgba(184, 184, 184, 0.25);
+    border-radius: 10px;
+  }
+
+  .complete__slider__description, .reviews__slider__description {
+    margin-top: 22px;
+    line-height: 30px;
+  }
+
+  .complete__slider__reviewhead, .reviews__slider__reviewhead {
+    margin-top: 33px;
+  }
+
+  .complete__slider__reviewtext, .reviews__slider__reviewtext {
+    font-size: 16px;
+    margin-top: 14px;
+    margin-bottom: 38px;
+  }
+
+  .benefit__items {
+    margin-top: 3px;
+    margin-bottom: 25px;
+  }
+
+  .benefit__item {
+    margin-top: 37px;
+  }
+
+  .benefit__icon {
+    width: 70px;
+    height: 70px;
+    margin-right: 28px;
+  }
+
+  .benefit__text {
+    font-size: 12px;
+  }
+
+  .gift__items {
+    margin-top: 45px;
+  }
+
+  .gift__head {
+    font-size: 24px;
+  }
+
+  .gift-image {
+    margin-top: 40px;
+    margin-bottom: 65px;
+  }
+
+  .question__accordion {
+    margin-top: 30px;
+    margin-bottom: 97px;
+  }
+  .question__accordion .panel-heading {
+    padding: 19px 2%;
+    margin-top: 15px;
+    box-shadow: 0px 4px 44px rgba(184, 184, 184, 0.25);
+    border-radius: 10px;
+  }
+  .question__accordion .panel span {
+    font-size: 12px;
+  }
+  .question__accordion .panel-body {
+    background: none;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    font-size: 14px;
+    padding: 0 3%;
+  }
+
+  /* CSS для ширины до 575px (включительно) */
+}
