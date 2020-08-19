@@ -1,0 +1,199 @@
+ 
+@import "vars";
+@import "libs";
+@import "fonts"; 
+
+
+body {
+ font-family: $GilroyLight;
+}
+
+.nav-item { 
+ color: #141414; 
+ &:hover { 
+  color: #1c1c1c;
+ }
+ &:active {
+  color: #000000;
+ }
+ &:hover,&:active {
+  text-decoration: none;
+ }
+}
+.header__number {
+ color: #141414; 
+ &:hover { 
+  color: #4a4a4a;
+ }
+ &:active {
+  color: #000000;
+ }
+ &:hover, &:active {   
+  text-decoration: none;
+ }
+}
+.header__getcall, .footer__getcall {
+ color: $redColor;
+ padding-bottom: 1px;
+ border-bottom: 1px solid $redColor;  
+ &:hover, &:active {  
+  color: #c9021a; 
+  text-decoration: none;
+ }
+}
+
+h1 {
+ font-family: $GilroyExtraBold;
+}
+
+
+.button {
+ font-family: $GilroyExtraBold;
+ display: block;
+ background: #F5112C; 
+ text-align: center;
+ color: #fff;
+ transition: .2s all ease-in-out;
+ &:hover {
+  color: #fff;
+  text-decoration: none;
+ }
+}
+
+.section {
+ &__head {
+  font-family: $GilroyExtraBold;
+ }
+}
+
+.situations {
+ &__item {
+  position: relative;
+ }
+}
+
+.situation {
+ &__num {
+  position: absolute;
+  font-family: $GilroyExtraBold;
+  i {
+   font-style: normal;
+   color: $redColor;
+  }
+ }
+}
+
+.foreseen {
+ &__subtitle {
+  font-family: $GilroyExtraBold;
+ }
+}
+.teacher {
+ &__name {
+  font-family: $GilroyExtraBold;
+  margin-bottom: 0px;
+ }
+}
+
+.compositionitems__subtitle, .reviews__name {
+ font-family: $GilroyExtraBold;
+}
+.composition {
+ &__price {
+  display: inline-block;
+  color: $redColor; 
+ }
+}
+
+.steps {
+ &__subhead {
+  font-family: $GilroyExtraBold;
+ }
+ &__item {
+  &::before {
+   font-family: $GilroyExtraBold;
+   color: #E9E9E9;
+  }
+ }
+}
+
+.swiper-container {
+ width: 100%;
+ height: 100%;
+}
+
+.swiper-slide {
+ text-align: center;
+ font-size: 18px;
+ background: #fff;
+
+ /* Center slide text vertically */
+ display: -webkit-box;
+ display: -ms-flexbox;
+ display: -webkit-flex;
+ display: flex;
+ -webkit-box-pack: center;
+ -ms-flex-pack: center;
+ -webkit-justify-content: center;
+ justify-content: center;
+ -webkit-box-align: center;
+ -ms-flex-align: center;
+ -webkit-align-items: center;
+ align-items: center;
+} 
+
+.swiper-pagination-progressbar { 
+ top: inherit !important;
+ bottom: 0px; 
+ background: #E9E9E9 !important; 
+ height: 8px !important;
+ border-radius: 5px;
+}
+.swiper-pagination-progressbar-fill {
+ background: $redColor !important;  
+ border-radius: 5px;
+}
+
+.reviews {
+ &__link {
+  display: inline-block;
+  color: $redColor; 
+  text-decoration: underline;
+ }
+}
+.footer {
+ &__number {
+  color: #141414;
+  &:hover {
+   color: #141414;
+   text-decoration: none;
+  }
+ }
+}
+ 
+
+.footer__getcall {
+ &:hover {
+  text-decoration: none;
+  color: $redColor;
+ }
+}
+
+.modal-header {
+ border: none;
+}
+
+.modal-head { 
+ font-family: $GilroyExtraBold;
+}
+.modal-form {
+ text-align: center;
+ &__title { 
+
+ }
+ * {
+  outline: none;
+ }
+}
+
+@import "media";
