@@ -1,0 +1,62 @@
+ 
+@import "vars";
+@import "libs";
+@import "fonts"; 
+
+body {
+ font-size: 18px;
+ color: $blackColor; 
+ font-family: 'Museo Sans Cyrl 300';
+} 
+
+.button {
+ font-family: 'Museo Sans Cyrl 900';
+ display: block;
+ transition: .2s all ease-in-out;
+ text-align: center; 
+ color: $grayColor; 
+ border: 2px solid $grayColor;
+ &:hover,&:active {
+  text-decoration: none;
+  color: $grayColor;
+ }
+ &-blue {
+  border-image-source: linear-gradient(180deg, #4A8DD1 0%, #02629A 100%);
+ }
+}
+
+.header {
+ &__tittle {
+  color: #828282;
+ }
+}
+
+.nav-link { 
+ color: $blackColor !important; 
+ transition: .2s all ease-in-out;
+ &:hover {
+  color: $blueColor !important; 
+ }
+}
+
+h1 { 
+	font-family: 'Museo Sans Cyrl 700';
+ color: $blueColor;  
+}
+
+.section-head { 
+ font-family: 'Museo Sans Cyrl 700';  
+}
+.header {
+ &-down__link {
+  font-size: 0px;
+ }
+}
+
+.marks { 
+ &__price, &__course {
+  font-family: 'Museo Sans Cyrl 900';
+ }
+}
+
+@import "media";
