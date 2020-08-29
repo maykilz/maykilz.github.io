@@ -1,0 +1,152 @@
+ 
+
+ 
+@import "vars";
+ 
+// Small devices (landscape phones, 576px and up)
+@media (max-width: 768px) { }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) and (max-width: 992px) {  }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { 
+ header { 
+  background: url('../img/background-header.png') no-repeat center;
+  background-size: cover;
+  position: relative;
+  &::after {
+   content: "";
+   width: 55%;
+   height: 85%;
+   background: url('../img/header-round.png') no-repeat center;
+   background-size: cover;
+   position: absolute; 
+   right: 0px;;
+   bottom: 0px;
+  }
+ }
+ .nav-link {
+  font-size: 16px !important;
+ }
+ h1 {
+  font-size: 3.264vw; 
+  padding-top: 74px;
+ }
+ .button {
+  font-size: 16px;
+  padding: 24px 32px; 
+  &-blue {
+   color: #fff;
+   background: $blueGradient;
+  } 
+ } 
+ .header {
+  &-advantages {
+   &__list {
+    margin-top: 20px;
+    padding-left: 30px;
+   } 
+   &__item {
+    margin-top: 30px;
+    &:first-child {
+     margin-top: 0px;
+    }
+    position: relative;
+    &::before {
+     position: absolute;
+     content: "";
+     width: 10px;
+     height: 10px;
+     background: $blueGradient;
+     left: -25px;
+     top: 10px;
+    }
+   } 
+  }
+  &-buttons {
+   margin-top: 40px;
+   margin-bottom: 67px;
+  }
+  &__tittle {
+   display: inline-block;
+   padding-bottom: 71px;
+  } 
+  &-down {  
+   position: absolute; 
+   left:0px;
+   bottom: 0px;
+   right: 0px;
+   margin-left: 9%;
+  }
+  &-down__link {
+   width: 16px;
+   height: 129px;
+   background: url('../img/down-img.png') no-repeat center;
+   background-size: cover;
+   margin: 0 auto;
+  } 
+ }
+ .section-head {
+  padding-top: 100px;
+  font-size: 35px;
+ }
+ .marks {
+  padding-bottom: 166px;
+  &__slider {
+   margin-top: 50px; 
+  } 
+  &__content {
+   padding: 0 40px;
+   border: 1px solid #f2f2f2;
+  }
+  &-description {
+   margin-top: 40px;
+   padding-left: 25px;
+   &__item {
+    position: relative;
+    margin-top: 25px;
+    &:first-child {
+     margin-top: 0px;
+    }
+    &::before {
+     content: "";
+     position: absolute;
+     width: 10px;
+     height: 10px;
+     background: $blueGradient; 
+     top: 10px;
+     left: -20px;
+    }
+   }
+  }
+  &__image {
+   display: block;
+   margin: 0 auto;
+   margin-top: 50px;
+   height: 115px;
+   object-fit: cover;
+  }
+  &__bottom {
+   margin: 40px 0px;
+  } 
+  &__price {
+   font-size: 32px;
+   padding-top: 5px;
+   padding-bottom: 19px;
+   padding-right: 8px;
+   margin-top: 2px;
+  }
+ 
+  &__course {
+   font-size: 18px;
+   hr {
+    margin: 0px; 
+   }
+  }
+
+ }
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { }
