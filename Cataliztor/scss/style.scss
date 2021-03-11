@@ -1,0 +1,198 @@
+ 
+@import "vars";
+@import "libs";
+@import "fonts"; 
+$red: #EB5757; 
+$textcolor: #434B53; 
+$graycolor: #2E363E; 
+
+
+
+* {
+ outline: none;
+}
+
+body {
+ font-family: 'Montserrat', sans-serif;
+ font-weight: 400;
+ color: $graycolor; 
+}
+ 
+
+ .button {
+ border: none; 
+ outline: none; 
+ border: none; 
+ background: $red; 
+ color: #fff; 
+ font-weight: 500;
+}
+
+
+ 
+h1 {
+ font-weight: bold;
+}
+h2 {
+  color: $textcolor; 
+  font-weight: bold;
+}
+.header {
+ &-title {
+  color: $textcolor; 
+  font-weight: 400; 
+ }
+ &-button {
+  margin-top: 40px;
+  margin-bottom: 126px;
+ }
+ .navbar{
+  color: $graycolor;   
+  a  {
+     
+    color: $graycolor; 
+    &:hover,&:active {
+     text-decoration: none;
+    }
+  }
+ }
+ &-number{ 
+  &__link {
+   position: relative;
+   font-weight: bold; 
+   &::before {
+    content: "";
+    width: 16px;
+    height: 16px;
+    background: url('../img/call.svg') no-repeat center;
+    background-size: cover;
+    position: absolute;
+    left: -30px; 
+    top: 5px; 
+   }
+  }
+ }
+}
+ 
+.question {
+  &__title {
+    color: $textcolor; 
+  }
+  &__number{ 
+    font-size: 30px;
+    color: $red; 
+    font-weight: bold;  
+  }
+}
+
+.services  {
+  color: $graycolor; 
+  &__head {
+    font-weight: 700;
+  }
+  &-item {
+    &__head {
+      font-weight: 600; 
+    }
+    &__title {
+      display: inline-block; 
+    }
+  }
+}
+.gallery {
+  color: $graycolor; 
+  &__head {
+    font-weight: bold;
+
+  }
+}
+
+.reviews {
+  &__head {
+    font-weight: bold;
+  }
+}
+
+.slider { 
+  overflow-x: hidden;
+  &__head, &__username {
+    font-weight: 500;
+  } 
+  &__city {
+    font-weight: 400;
+    color: #A6AEB6;  
+  }
+  &__citelink {
+    display: inline-block;
+    color: #4A94FF; 
+    border-bottom: 1px dotted #4A94FF;
+    &:hover,&:active {
+      color:  #4A94FF; 
+      text-decoration: none;
+    }
+  }
+}
+
+.slick-arrow {
+  background: $red;
+  border-radius: 50%; 
+  font-size:  0px;  
+}
+
+.btn-juliet-left {
+  background-image: url('../img/prev-bg.png');
+  background-repeat: no-repeat; 
+  background-position: center; 
+}
+
+.btn-juliet-right {
+  background-image: url('../img/next-bg.png');
+  background-repeat: no-repeat; 
+  background-position: center; 
+}
+
+.information {
+  &__formblock {
+    border-color: $red; 
+  }
+}
+
+input[type="text"] { 
+  background-color: #F2F6FA; 
+  color: $graycolor; 
+  border: none; 
+  font-weight: 400;
+}
+.form { 
+  &-legend {
+    font-weight: bold;
+  }
+  &-title {
+    font-size: 16px; 
+  }
+  &-number {
+    position: relative;
+    background-image: url('../img/call.png');
+    background-repeat: no-repeat;
+    background-position: 26px 28px;
+    background-size: 25px 25px;  
+  }
+  &-carmodel {
+    position: relative;
+    background-image: url('../img/car.png');
+    background-repeat: no-repeat;
+    background-position: 26px 28px;
+    background-size: 25px 25px;  
+  }
+  &-label {
+    padding-bottom: 5px;
+    a {
+      color: $graycolor; 
+      text-decoration: underline;
+    }
+  }
+} 
+
+@import "media";
+
+ 
