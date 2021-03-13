@@ -1,0 +1,108 @@
+ 
+@import "vars";
+@import "libs";
+@import "fonts"; 
+$red: #EB5757; 
+$textcolor: #434B53; 
+$graycolor: #2E363E; 
+
+
+
+* {
+ outline: none;
+}
+
+body {
+  font-family: 'Exo 2', sans-serif; 
+  font-weight: 400; 
+}
+ 
+
+.button {
+ border: none; 
+ outline: none; 
+ border: none; 
+ background: $red; 
+ color: #fff; 
+ font-weight: 500;
+}
+
+header {
+  padding: 13px 0px;
+  background: #171717;
+  text-align: center;
+}
+.navbar-brand {
+  font-weight: 700;
+  font-size: 14px;
+  color: #fff !important;
+}
+.header__messangers {
+  max-width: 160px;
+}
+.header__messagerlink{
+  font-size: 0px ;
+  display: block;
+  width: 34px;
+  height: 34px; 
+} 
+.header-telegram {  
+  background: url('../img/telegram.png') no-repeat center;
+  background-size: cover;   
+} 
+.header-whatsapp {
+  background: url('../img/whatsapp.png') no-repeat center;
+  background-size: cover;   
+}
+
+.header-viber {
+  background: url('../img/viber.png') no-repeat center;
+  background-size: cover;   
+}
+.header-vkontakte {
+  background: url('../img/vk.png') no-repeat center;
+  background-size: cover;   
+}
+
+
+h1 {
+  font-weight: bold;
+  font-size: 30px;
+  text-align: center;
+  margin: 0px;
+  padding-top: 43px;
+  color: #fff;
+}
+.image {
+  display: block; 
+  margin: 0 auto;
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+
+
+.ship { 
+  background: url('../img/background.png') no-repeat center;
+  background-size: cover;
+  &__title {
+    display: block;
+    padding: 10px 0px;;
+    border-radius: 50px; 
+    background: url('../img/pricebg.png') no-repeat center;
+    background-size: cover;
+    span {
+      color: #cb212c;  
+      font-weight: 600;
+    }
+  }
+  &__button {
+    padding: 18px 0px; 
+    box-shadow: 4px -2px 43px 0px rgba(212, 212, 212, 0.2); 
+    border-radius: 3px;
+    border: 5px solid rgb(255, 255, 255); 
+    background: transparent;
+    margin-top: 30px;
+    margin-bottom: 44px;
+    color: #fff;
+  }
+}
