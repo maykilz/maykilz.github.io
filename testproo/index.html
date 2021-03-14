@@ -1,0 +1,175 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <title>Vape Shop</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> 
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"/>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+
+  </head>
+  <body>
+   <header class="header">
+    <nav class="navbar navbar-expand navbar-light ">
+     <div class="container"> 
+      <div class="row w-100  justify-content-between m-0 header-top">
+       <a class="navbar-brand text-uppercase font-weight-bold" href="#">Vape-Shop</a>
+   
+       <button class="button navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+       </button>    
+       <div class="col-6 header__messangers">
+         <div class="d-flex">
+           <a href="https://telegram.im/whotakie" class="header__messagerlink header-telegram">Нажмите для перехода в Телеграм</a>
+           <a href="https://api.whatsapp.com/send?phone=375292942860" class="header__messagerlink header-whatsapp">Нажмите для перехода в Вотсап</a>
+           <a href="viber://chat?number=375292942860" class="header__messagerlink header-viber">Нажмите для перехода в Вайбер</a>
+           <a href="https://vk.com/hqdgoncharik" class="header__messagerlink header-vkontakte">Нажмите для перехода в Вконтакте</a>
+         </div>
+       </div>
+       </div>  
+      </div>  
+     </nav>   
+    </header> 
+   <main> 
+    <section class="ship">
+      <div class="container">
+      <h1 class="text-uppercase">puff bar <br>
+        четыре по цене трёх</h1>
+        <div class="text-center">
+          <img src="img/hqd.png" alt="Картинка пода" class="image"> <br>
+          <span class="ship__title">800 затяжек — <span>15 руб.</span></span>  <br>
+          <span class="ship__title">1600 затяжек — <span>22 руб.</span></span> <br>
+          <button class="ship__button col-12"  data-toggle="modal" data-target="#exampleModalLong">Заказать</button>
+        </div>
+      </div>
+    </section>
+    <section class="description">
+      <div class="container">
+        <ul class="description__list">
+          <li class="description__item">Яркие и приятные вкусы <br>
+            с высокой крепостью</li>
+          <li class="description__item">У этого девайса от 400 до 1600 <br>
+            затяжек, что выше среднего</li> 
+          <li class="description__item">Легка в эксплуатации, хватает <br>
+            на 1,5-2 дня отличного парения</li>
+        </ul>
+      </div>
+      <div class="reblock">
+        Парить солевой никотин безопаснее, <br>
+        чем табачную сигарету
+      </div>
+      <div class="dsk">
+        <div class="container">
+          <h2>Основные отличия <br>
+            от свободного никотина:</h2>
+            <div class="dsk__list">
+              <div class="dsk__item">
+                <span>Несильно бьет по горлу. 
+                Поэтому курить электронку  
+                значительно приятнее</span>
+              </div>
+              <div class="dsk__item">
+                <span>spH близок к человеческому.
+                За счёт этого он быстро
+                усваивается и даёт чувство
+                насыщения
+                </span>
+              </div>
+              <div class="dsk__item">
+                <span>Искусственно выведен
+                с добавлением солей. Все
+                добавки быстро усваиваются
+                и выводятся из организма
+                </span>
+              </div>
+            </div>
+            <button class="ship__button col-12"  data-toggle="modal" data-target="#exampleModalLong">Заказать</button>
+            <a href="privacy.html" class="polytic" target="_blank" >Политика конфиденциальности</a>
+        </div>
+      </div>
+    </section>
+   </main> 
+  
+   <div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+ 
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header"> 
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <h3 class="text-center modal__head">Заполните форму</h3>
+        <form action="send.php" id="popup-form" method="POST">
+          <fieldset>
+            <legend>После отправки заявки мы свяжемся
+              с Вами в ближайшее время</legend> 
+            <input type="text" name="name" id="" placeholder="Ваше имя" class="col-12">  
+            <input type="text" name="phone" id="" placeholder="Ваш контактный номер" class="form-number col-12">
+            <input type="submit" value="Оставить заявку" class="ship__button form__button col-12" disabled>
+            <div class="d-flex flex-row col-10 p-0 ">
+              <input type="checkbox" name="checkbox" id="formcheckbox" checked>
+              <label for="formcheckbox" class="formcheckboxlabel">Я принимаю условия <a href="privacy.html" target="_blank">передачи информации</a></label>
+            </div>
+          </fieldset>
+        </form>
+        <hr>
+        <span class="form-callcaption">или свяжитесь с нами в мессенджерах:</span>
+         <div class="col-6 mx-auto">
+          <div class="d-flex  form-contacts justify-content-between">
+            <a href="https://telegram.im/whotakie" class="header__messagerlink header-telegram">Нажмите для перехода в Телеграм</a>
+            <a href="https://api.whatsapp.com/send?phone=375292942860" class="header__messagerlink header-whatsapp">Нажмите для перехода в Вотсап</a>
+            <a href="viber://chat?number=375292942860" class="header__messagerlink header-viber">Нажмите для перехода в Вайбер</a>
+          </div>
+         </div>
+        </div> 
+      </div>
+    </div> 
+ 
+ 
+ 
+  </div>  
+      
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@400;600;700&display=swap" rel="stylesheet">
+     
+    <link rel="stylesheet" href="css/style.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+
+ 
+    <script src="https://zeptojs.com/zepto.js"></script> 
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+  
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>  
+   
+  
+ 
+    <script src="https://unpkg.com/imask@6.0.5/dist/imask.js"></script>
+
+
+<script src="js/wow.min.js"></script>
+<script>
+  new WOW().init();
+  </script>   
+  <script>
+ 
+  </script>
+  <script src="https://unpkg.com/imask@6.0.5/dist/imask.js"></script>
+  <script src="js/main.js"></script>
+ 
+   </body>
+</html>
